@@ -5,14 +5,14 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>releases</version>
 	
 	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
+		<name>Mithun--Technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -21,8 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.235.114.145:9000/</sonar.host.url>
-		<sonar.login>efac1c241df7bf484bec5027b4a9cd8af9ec5c1b</sonar.login>
+		<sonar.host.url>http://13.126.57.116:9000/</sonar.host.url>
+		<sonar.login>ea65b3c237aad8efb8b7df2f2b7d206c6f789e10</sonar.login>
+		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,15 +97,15 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.66.208.19:8081/repository/paytm-relases/</url>
-	    </repository>
+	      <name>krishnamohan-devbranch-release</name>
+	      <url>http://13.234.67.223:9980/mkm-nexus/repository/flipkart-releases</url>
+	     </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.66.208.19:8081/repository/paytm-snapshot/</url>
-	    </snapshotRepository>
+	      <name>krishnamohan-devbranch-release </name>
+	      <url>http://13.234.67.223:9980/mkm-nexus/repository/flipkart-snapshots/</url>
+	      </snapshotRepository>
 	    
 	</distributionManagement>
 	
@@ -151,3 +152,4 @@
 	
 	
 </project>
+
