@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>666-snapshot</version>
+	<version>888-snapshot</version>
 	
 	<name>mithun-1st-project</name>
 
