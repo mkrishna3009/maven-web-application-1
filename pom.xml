@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Mithun Technologies</name>
-		<url>http://mithuntechnologies.com/</url>
+		<name>krishnamohan-devops</name>
+		<url>/swank-innovation/</url>
 	</organization>
 
 	<properties>
@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>mkm-nov8th-project</finalName>
+		<finalName>swank@nov8th-project</finalName>
 		
 		<plugins>
 			<plugin>
