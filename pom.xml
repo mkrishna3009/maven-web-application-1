@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>sitecrawl</artifactId>
+	<artifactId>maven-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>releases</version>
+	<version>666-snapshot</version>
 	
-	<name>krishna-fb-project</name>
+	<name>mithun-1st-project</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>krishhna-nov-3rd</finalName>
+		<finalName>mkm-nov8th-project</finalName>
 		
 		<plugins>
 			<plugin>
