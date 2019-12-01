@@ -19,10 +19,10 @@
 	<properties>
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
-		<junit.version>4.11</junit.version>
+		<junit.version>4.11</junit.version> 
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://192.168.43.133:9000/</sonar.host.url>
-		<sonar.login>002ba001074fdf890b89128d9ae85aa243713d11</sonar.login>
+		<sonar.host.url>http://13.233.197.118:9000/</sonar.host.url>
+		<sonar.login>0c004b65233585a92164d25d28631689139783ea</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart</name>
-	      <url>http://192.168.43.158:8081/repository/flipkart-release/</url>
+	      <url>http://13.126.254.112:8081/repository/flipkart/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart </name>
-	      <url>http://192.168.43.158:8081/repository/flipkart/</url>
+	      <url>http://13.126.254.112:8081/repository/flipkart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
