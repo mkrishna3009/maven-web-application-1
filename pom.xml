@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-app</artifactId>
 	<packaging>war</packaging>
-	<version>888-snapshot</version>
+	<version>release</version>
 	
 	<name>mithun-1st-project</name>
 
@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>swank@nov8th-project</finalName>
+		<finalName>MithunFirstProject</finalName>
 		
 		<plugins>
 			<plugin>
