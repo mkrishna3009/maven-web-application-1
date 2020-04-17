@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-app</artifactId>
+	<artifactId>krishna-app</artifactId>
 	<packaging>war</packaging>
 	<version>release</version>
 	
@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version> 
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.19.88:9000/</sonar.host.url>
-		<sonar.login>0c004b65233585a92164d25d28631689139783ea</sonar.login>
+		<sonar.host.url>http://13.233.223.198:9000/</sonar.host.url>
+		<sonar.login>3ba6eb47580d9193ce56f3eb8d37b1c6ad7d4e37</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart</name>
-	      <url>http://52.66.244.110:8081/repository/flipkart/</url>
+	      <url>http://13.127.12.131:8081/repository/krishnamohan-app/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart </name>
-	      <url>http://52.66.244.110:8081/repository/flipkart-snapshot/</url>
+	      <url>http://13.127.12.131:8081/repository/krishnamohan-app/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
