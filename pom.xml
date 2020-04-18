@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>krishna-app</artifactId>
 	<packaging>war</packaging>
-	<version>release-01</version>
+	<version>555-SNAPSHOT</version>
 	
 	<name>mithun-1st-project</name>
 
