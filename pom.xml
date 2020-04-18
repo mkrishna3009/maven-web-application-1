@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart</name>
-	      <url>http://3.6.38.35:8081/repository/krishna-release/</url>
+	      <url>http://13.127.53.200:8081/repository/krishna-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart </name>
-	      <url>http://3.6.38.35:8081/repository/krishna-snapshot/</url>
+	      <url>http://13.127.53.200:8081/repository/krishna-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
