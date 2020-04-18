@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version> 
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.22.93:9000/</sonar.host.url>
+		<sonar.host.url>http://13.233.173.247:9000/</sonar.host.url>
 		<sonar.login>3ba6eb47580d9193ce56f3eb8d37b1c6ad7d4e37</sonar.login>
 		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart</name>
-	      <url>http://13.233.88.211:8081/repository/krishna-release/</url>
+	      <url>http://13.127.196.83:8081/repository/krishna-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>krishnamohan-flipkart </name>
-	      <url>http://13.233.88.211:8081/repository/krishna-snapshot/</url>
+	      <url>http://13.127.196.83:8081/repository/krishna-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
