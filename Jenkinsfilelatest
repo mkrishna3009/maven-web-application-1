@@ -1,4 +1,4 @@
-node { def MavemHome = tool name:'maven' stage('Git_checkout') { git branch: 'feature-A', credentialsId: 'GIt-Hub', url: 
+node { def MavenHome = tool name:'maven' stage('Git_checkout') { git credentialsId: 'GIt-Hub', url: 
         'https://github.com/modugulakrishna/maven-web-application-1.git'
     }
     
@@ -18,7 +18,7 @@ node { def MavemHome = tool name:'maven' stage('Git_checkout') { git branch: 'fe
         
     }
     
-    stage('Deploy-to-wildfly') { sshagent(['Wildflyserver']) { sh "ssh -o StrictHostKeyChecking=no target/*.war 
+    stage('Deploy-to-wildfly') { sshagent(['Wildflyserver']) { sh "scp -o StrictHostKeyChecking=no target/*.war 
     ubuntu@13.126.106.24:/opt/wildfly/standlone/deployments"
 }
     }
