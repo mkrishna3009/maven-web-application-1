@@ -1,0 +1,25 @@
+node { def MavemHome = tool name:'maven' stage('Git_checkout') { git branch: 'feature-A', credentialsId: 'GIt-Hub', url: 
+        'https://github.com/modugulakrishna/maven-web-application-1.git'
+    }
+    
+    stage('MavenCleanPackage') { sh "${MavenHome}/bin/mvn clean package"
+    }
+    
+    stage('SonarqubeCode-quality') { sh "${MavenHome}/bin/mvn sonar:sonar"
+    }
+    
+    stage('Artifacts-to-nexus') { sh "${MavenHome}/bin/mvn deploy"
+        
+    }
+    
+    stage('Deploy-to-tomcat') { sshagent(['tomcat_user_credentials']) { sh "scp -o StrictHostKeyChecking=no target/*.war 
+    ec2-user@52.66.49.106:/opt/tomcat-9/webapps"
+}
+        
+    }
+    
+    stage('Deploy-to-wildfly') { sshagent(['Wildflyserver']) { sh "ssh -o StrictHostKeyChecking=no target/*.war 
+    ubuntu@13.126.106.24:/opt/wildfly/standlone/deployments"
+}
+    }
+}
