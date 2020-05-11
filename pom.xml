@@ -13,7 +13,7 @@
 
 	<organization>
 		<name>krishnamohan-devops</name>
-		<url>/swank-innovation-hyd/</url>
+		<url>/krishnamohan-elb-autoscaling/</url>
 	</organization>
 
 	<properties>
@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>MithunFirstProject</finalName>
+		<finalName>mkm-elb-autoscale</finalName>
 		
 		<plugins>
 			<plugin>
